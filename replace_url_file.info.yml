@@ -1,0 +1,6 @@
+
+name: 'Replace url file'
+type: module
+description: 'Replace url file.'
+core: 8.x
+package: 'Custom'

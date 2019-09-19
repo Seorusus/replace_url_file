@@ -1,0 +1,9 @@
+replace_url_file.sitemap.default:
+  path: '/custom_sitemap.xml'
+  defaults:
+    _controller: '\Drupal\replace_url_file\Controller\ReplaceUrlFileController::getSitemap'
+    _disable_route_normalizer: 'TRUE'
+  requirements:
+
+    # Access for unauthorized users.
+    _access: 'TRUE'
